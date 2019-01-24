@@ -1,7 +1,1 @@
-# Hello World
-## Documentation here
-### the process is moving
-
-# Full Pipeline Documentation
-# tts-full-pipeline
-Review our documentation on [GitHub Pages](https://order-of-the-stacky-castle.github.io/tts-full-pipeline/)
+# Welcome to OSC's end to end solution for CI/CD using Jenkins, Artifactory, and Heroku to deploy and manage a MEAN app.
