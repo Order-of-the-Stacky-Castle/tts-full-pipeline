@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
 title: OSC - CI/CD Full Pipeline Project
-description: "Documentation for the TTS DevOps December 2018 Cohort sponsored by Cognizant"
+description: "Using Jenkins, Artifactory, and Heroku to automatically deploy and manage a full-stack MEAN application"
 show_downloads: true
