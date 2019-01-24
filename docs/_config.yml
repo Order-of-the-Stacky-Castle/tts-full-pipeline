@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
-title: OSC - CI/CD Full Pipeline Project
+title: TTS-DevOps2018 Full Pipeline Project
 description: "Using Jenkins, Artifactory, and Heroku to automatically deploy and manage a full-stack MEAN application"
 show_downloads: true
