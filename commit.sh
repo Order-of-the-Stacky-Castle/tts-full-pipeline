@@ -6,7 +6,7 @@ hrrepo=""
 do_ghrepo(){
   printf "GitHub being processed\n"
   git add --all
-  git commit -m \""$msg\""
+  git commit -m "$msg"
   git push
 }
 
