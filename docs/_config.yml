@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
-title: TTS-DevOps2018 Full Pipeline Project
-description: "Using Jenkins, Artifactory, and Heroku to automatically deploy and manage a full-stack MEAN application"
-show_downloads: true
+title: CI/CD Full Pipeline Project
+description: "TTS DevOps Cohort 2018 project using Jenkins, Artifactory, and Heroku to automagically deploy and manage a full-stack MEAN application"
+show_downloads: false
