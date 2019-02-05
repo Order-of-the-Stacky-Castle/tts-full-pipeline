@@ -48,4 +48,4 @@ Keep track of each step that you took in your process because your deliverables 
     - Run `npm publish`
     - After completing these steps running `npm install <PACKAGE_NAME>` will automatically add the package to the Artifactory repository.
 
-2. Test
+2. Test asdf
