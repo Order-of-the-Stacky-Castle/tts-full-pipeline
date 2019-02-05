@@ -29,7 +29,7 @@ node {
     // Create Artifactory NPM BUild Instance
     def rtNpm = Artifactory.newNpmBuild()
     // Define where NPM build should download dependencies from.
-    rtNpm.resolver server: server, repo: 'npm-virtual-test'
+    rtNpm.resolver server: server, repo: 'virtual-npm-test'
     // Download NPM dependencies
     def buildInfo = rtNpm.install path: 'npm-example'
     // Define the deployer for package publishing
@@ -46,6 +46,7 @@ node {
   }
   stage('Test') {
     echo 'Testing not configured ....'
+    
   }
   stage('Deploy') {
     echo 'Deployment not configured ....'
