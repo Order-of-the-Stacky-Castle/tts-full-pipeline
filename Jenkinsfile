@@ -16,7 +16,7 @@ node {
     // Define where NPM build should download dependencies from.
     rtNpm.resolver server: server, repo: 'virtual-npm-test'
     // Download NPM dependencies
-    def buildInfo = rtNpm.install path: 'npm-example'
+    def buildInfo = rtNpm.install
     // Define the deployer for package publishing
     rtNpm.deployer server: server, repo: 'npm-local'
       // Package code and publish
