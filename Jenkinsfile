@@ -16,12 +16,11 @@ node {
     // Define where NPM build should download dependencies from.
     rtNpm.resolver server: server, repo: 'virtual-npm-test'
     // Download NPM dependencies
-    def buildInfo = rtNpm.install
+    def buildInfo = rtNpm.install path: 'npm-example'
     // Define the deployer for package publishing
     rtNpm.deployer server: server, repo: 'npm-local'
-      // Package code and publish
-    // def buildInfo = 
-    rtNpm.publish path: 'npm-example'
+    // Package code and publish
+    def buildInfo = rtNpm.publish path: 'npm-example'
   }
   stage('Deploy'){
     sh 'echo "Deploy not configured"'
