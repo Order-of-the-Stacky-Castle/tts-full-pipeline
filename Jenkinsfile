@@ -19,8 +19,6 @@ node {
     def buildInfo = rtNpm.install path: 'npm-example'
     // Define the deployer for package publishing
     rtNpm.deployer server: server, repo: 'npm-local'
-    // Package code and publish
-    def buildInfo = rtNpm.publish path: 'npm-example'
   }
   stage('Deploy'){
     sh 'echo "Deploy not configured"'
